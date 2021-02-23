@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  ###数据库相关连接
+  datasource:
+    username: root
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8
+####打印MyBatias日志
